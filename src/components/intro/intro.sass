@@ -1,0 +1,85 @@
+.i
+    display: flex
+    height: 100vh
+    background: gray
+
+    &-scroll
+        width: 2.5rem
+        height: 2.5rem
+        position: absolute
+        bottom: 1rem
+        stroke: #000000
+    
+    &-left
+        display: flex
+        justify-content: center
+        align-items: center
+        flex: 1
+
+        &-wrapper
+            padding: 2rem
+            height: 70%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+
+        &-intro
+            font-size: 2rem
+            font-weight: 300
+
+        &-name
+            font-size: 4rem
+
+        &-title
+            height: 3rem
+            overflow: hidden
+
+            &-wrapper
+                height: 100%
+                animation: move 10s ease-in-out infinite alternate
+
+            &-item
+                height: 3rem
+                font-size: 2rem
+                font-weight: 700
+                color: #09e44b
+                display: flex
+                align-items: center
+
+
+    
+    &-right 
+        flex: 1
+        position: relative
+
+        &-bg
+            clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+            background-color: #09e44b
+            width: 100%
+            height: 100%
+
+        &-img
+            width: 80%
+            height: 80%
+            position: absolute
+            top: 5%
+            right: 5%
+
+
+@keyframes move
+    25%
+        transform: translateY(-3rem)
+    50%
+        transform: translateY(-6rem)
+    75%
+        transform: translateY(-9rem)
+    100%
+        transform: translateY(-12rem)
+        
+
+
+
+
+
+
+
