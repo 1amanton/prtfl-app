@@ -1,0 +1,41 @@
+.p {
+  width: 30%;
+  height: 35vh;
+  margin: 1.5rem 0.75rem;
+  border: 2px solid grey;
+  border-radius: 1rem 1rem 0 0;
+  overflow: hidden;
+}
+
+.p-browser {
+  height: 1.5rem;
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 2;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.p-browser-circle {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0.25rem;
+}
+
+.p-browser-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  -webkit-transition: all 10s ease;
+  transition: all 10s ease;
+}
+
+.p:hover .p-browser-img {
+  -webkit-transform: translateY(-63%);
+          transform: translateY(-63%);
+}
+/*# sourceMappingURL=product.css.map */
