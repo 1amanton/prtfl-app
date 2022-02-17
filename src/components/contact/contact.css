@@ -1,0 +1,112 @@
+.c {
+  height: 100vh;
+  position: relative;
+}
+
+.c-bg {
+  width: 2rem;
+  height: 100%;
+  background-color: #09e44b;
+  position: absolute;
+}
+
+.c-wrapper {
+  padding: 2.5rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.c-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.c-title {
+  font-size: 4rem;
+  width: 80%;
+}
+
+.c-desc {
+  font-weight: 300;
+}
+
+.c-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3rem 0;
+}
+
+.c-item-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1.5rem;
+}
+
+.c-form {
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.c-form input {
+  height: 3rem;
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+
+.c-form textarea {
+  width: 80%;
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+
+.c-form button {
+  border: none;
+  padding: 1rem;
+  font-weight: 700;
+  color: white;
+  background: #09e44b;
+  cursor: pointer;
+  width: 40%;
+}
+
+.doneMessage {
+  margin-top: 1rem;
+  font-weight: 700;
+  color: #09e44b;
+}
+/*# sourceMappingURL=contact.css.map */

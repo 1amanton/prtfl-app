@@ -25,5 +25,8 @@
             width: 100%
             transition: all 10s ease
 
-    &:hover .p-browser-img
-        transform: translateY(-63%)
+    &:hover:nth-child(odd) .p-browser-img
+        transform: translateY(-64%)
+
+    &:hover:nth-child(even) .p-browser-img
+        transform: translateY(-75%)

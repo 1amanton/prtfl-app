@@ -34,8 +34,13 @@
   transition: all 10s ease;
 }
 
-.p:hover .p-browser-img {
-  -webkit-transform: translateY(-63%);
-          transform: translateY(-63%);
+.p:hover:nth-child(odd) .p-browser-img {
+  -webkit-transform: translateY(-64%);
+          transform: translateY(-64%);
+}
+
+.p:hover:nth-child(even) .p-browser-img {
+  -webkit-transform: translateY(-75%);
+          transform: translateY(-75%);
 }
 /*# sourceMappingURL=product.css.map */
