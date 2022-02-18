@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./intro.css"
 import Face from "../../img/face.png"
+import { ThemeContext } from '../../context'
 
 const Intro = () => {
+
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
+
   return (
     <div className="i">
 
@@ -36,6 +41,7 @@ const Intro = () => {
                 fill="none"
                 className="i-scroll"
                 xmlns="http://www.w3.org/2000/svg"
+                style={{ stroke: darkMode && "#09e44b"  }}
             >
             <g id="scroll">
                 <path
