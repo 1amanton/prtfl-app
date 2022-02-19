@@ -110,4 +110,33 @@
   font-weight: 700;
   color: #09e44b;
 }
+
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1.5rem 3.5rem;
+  }
+  .c-item {
+    margin: 1.5rem 0;
+  }
+  .c-title {
+    font-size: 3rem;
+  }
+  .c-desc {
+    display: none;
+  }
+  .c-form {
+    margin-top: 1rem;
+  }
+  .c-form button {
+    padding: 0.5rem;
+  }
+  .doneMessage {
+    position: absolute;
+    bottom: 8px;
+  }
+}
 /*# sourceMappingURL=contact.css.map */

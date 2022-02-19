@@ -27,8 +27,6 @@ const Intro = () => {
                     </div>
                 </div>
 
-                <img src="" alt="" />
-
                 <p className="i-left-desc">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam rerum repellat ipsam non sapiente excepturi, qui libero culpa nihil doloremque dolorum veniam animi, doloribus aliquid nemo a laudantium temporibus vel.
                 </p>

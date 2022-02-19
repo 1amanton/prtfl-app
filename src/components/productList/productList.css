@@ -37,4 +37,17 @@
           justify-content: space-between;
   width: 100%;
 }
+
+@media screen and (max-width: 480px) {
+  .pl {
+    padding: 4rem 2rem;
+  }
+  .pl-texts {
+    width: 80%;
+  }
+  .pl-list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 /*# sourceMappingURL=productList.css.map */

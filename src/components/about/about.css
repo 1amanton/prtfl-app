@@ -93,4 +93,27 @@
   color: gray;
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 480px) {
+  .a {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .a-right-desc {
+    padding: 0 1rem;
+  }
+  .a-award {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .a-card {
+    height: 30vh;
+  }
+  .a-card.bg {
+    top: 4rem;
+  }
+}
 /*# sourceMappingURL=about.css.map */
